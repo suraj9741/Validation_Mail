@@ -2,6 +2,7 @@
 echo "Email Validation Program"
 #pattern="^([A-Za-z0-9]*[A-Za-z0-9]?)@(([A-Za-z0-9]+)*)+\.(com{1})+$"
 pattern="^[0-9a-zA-Z]+([._+-][0-9a-zA-Z]+)*@[0-9a-zA-Z]+.[0-9a-zA-Z]{2,4}([.]*[a-zA-Z]{0,3})$"
+#pattern="^([A-Za-z0-9]+((\.|\-|\_|\+)?[A-Za-z0-9]?)*[A-Za-z0-9]?)@(([A-Za-z0-9]+)+((\.|\-|\_)?([A-Za-z0-9]+)+)*)+\.([A-Za-z]{2,})+$"
 #echo "Enter Email"
 #read email
 valid_input=(
